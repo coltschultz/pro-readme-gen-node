@@ -53,7 +53,7 @@ ${projectData.usage}
 ## **Contributing**
 ${projectData.contributing}
 ## **Tests**
-${projectData.tests}
+${projectData.test}
 ## **License**
 ${getLicense(projectData)}
 ## **Questions**

@@ -1,7 +1,7 @@
 
-# **My Project**
+# **Project Title**
 
-![GPL](https://img.shields.io/badge/license-GPL-blue)
+![MIT](https://shields.io/badge/license-MIT-green)
 
 
 ## Table of Contents
@@ -14,19 +14,19 @@
 - [Questions](#questions)
 
 ## **Description**
-my description
+A description of your project for users to read.
 ## **Installation**
-my installation instructions
+Installation Instructions for anyone who wants to install the project.
 ## **Usage**
-my usage information
+Usage information to give an idea of how the project is to be used.
 ## **Contributing**
-my contribution guidelines
+Contribution guidelines for any users that wish to contribute.
 ## **Tests**
-undefined
+Testing instructions for anyone wishing to test the project.
 ## **License**
-This application is covered under the GNU GPL license. [Read More Here](https://choosealicense.com/licenses/gpl-3.0/)
+This application is covered under the MIT license. [Read More Here](https://choosealicense.com/licenses/mit/)
 ## **Questions**
 If you have additional questions, find me at
-[this Github link.](https://www.mygithuburl.com)
+[this Github link.](https://www.github.com/yourusername)
 
 
