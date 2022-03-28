@@ -44,7 +44,7 @@ const promptUser = projectData => {
             type: 'rawlist',
             name: 'license',
             message: 'Select the appropriate license:',
-            choices: ['Badge 1', 'Badge 2']
+            choices: ['MIT', 'GPL', 'BSD']
         }
 
     ])
