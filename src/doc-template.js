@@ -15,22 +15,28 @@ const getBadge = (projectData) => {
 
 const getLicense = (projectData) => {
     if (projectData.license === 'MIT') {
-        return 'This application is covered under the MIT license. [Read More Here](https://choosealicense.com/licenses/mit/)';
+        return `
+## License
+This application is covered under the MIT license. [Read More Here](https://choosealicense.com/licenses/mit/)`;
     }
     else if (projectData.license === 'GPL') {
-        return 'This application is covered under the GNU GPL license. [Read More Here](https://choosealicense.com/licenses/gpl-3.0/)';
+        return `
+## License
+This application is covered under the GNU GPL license. [Read More Here](https://choosealicense.com/licenses/gpl-3.0/)`;
     }
     else if (projectData.license === 'BSD') {
-        return 'This application is covered under the BSD license. [Read More Here](https://choosealicense.com/licenses/bsd-2-clause/)';
+        return `
+## License
+This application is covered under the BSD license. [Read More Here](https://choosealicense.com/licenses/bsd-2-clause/)`;
     }
     else {
-        return 'There is no license available for this application. [Read More Here](https://choosealicense.com/no-permission/)';
+        return '';
     };
 };
 
 module.exports = (projectData) => {
 return `
-# **${projectData.title}**
+# ${projectData.title}
 
 ${getBadge(projectData)}
 
@@ -44,22 +50,20 @@ ${getBadge(projectData)}
 - [License](#license)
 - [Questions](#questions)
 
-## **Description**
+## Description
 ${projectData.description}
-## **Installation**
+## Installation
 ${projectData.installation}
-## **Usage**
+## Usage
 ${projectData.usage}
-## **Contributing**
+## Contributing
 ${projectData.contributing}
-## **Tests**
+## Tests
 ${projectData.test}
-## **License**
 ${getLicense(projectData)}
-## **Questions**
+## Questions
 If you have additional questions, find me at
-[this Github link.](${projectData.questions})
-
-
+[this Github link](${projectData.questions}) or email
+me at [${projectData.email}](mailto:${projectData.email})
 `;
 };
