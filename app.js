@@ -51,7 +51,7 @@ const promptUser = projectData => {
     .then(projectData => {
         theDoc = generateDoc(projectData);
 
-        fs.writeFile('README.md', theDoc,  err => 
+        fs.writeFile('./dist/README.md', theDoc,  err => 
             {
                 if (err) {
                   console.log(err);
@@ -65,6 +65,7 @@ console.log(`
 ███████║╚██████╔╝╚██████╗╚██████╗███████╗███████║███████║██╗
 ............................................................
 Your readme file has been generated successfully!
+Find your file at: ./dist/README.md
 `);
 
               })
