@@ -23,7 +23,7 @@ const promptUser = projectData => {
         {
             type: 'input',
             name: 'usage',
-            messsage: 'Enter the usage information for your project:'
+            message: 'Enter the usage information for your project:'
         },
         {
             type: 'input',
@@ -38,7 +38,7 @@ const promptUser = projectData => {
         {
             type: 'input',
             name: 'questions',
-            message: 'Enter the URL for your GitHub:'
+            message: 'Enter the URL for your GitHub (include https://):'
         },
         {
             type: 'rawlist',

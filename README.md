@@ -1,7 +1,7 @@
 
 # ****
 
-![MIT](https://shields.io/badge/license-MIT-green)
+![BSD](https://shields.io/badge/license-BSD-green)
 
 
 ## Table of Contents
@@ -24,7 +24,7 @@
 ## **Tests**
 undefined
 ## **License**
-This application is covered under the MIT license. [Read More Here](https://choosealicense.com/licenses/mit/)
+This application is covered under the BSD license. [Read More Here](https://choosealicense.com/licenses/bsd-2-clause/)
 ## **Questions**
 If you have additional questions, find me at
 [this Github link.]()
